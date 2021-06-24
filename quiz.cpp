@@ -14,7 +14,7 @@ int main ()
         cout<<"This number does not match an answer, try again. Your choice is: "<<endl;
          cin>>a1;
     }
-     if (a1=1) {result=result+1;}
+     if (a1==1) {result=result+1;}
      else {result=result;}
 
     cout<<"How old was Damon when he was turned into a vampire?"<<endl;
@@ -26,7 +26,7 @@ int main ()
         cout<<"This number does not match an answer, try again. Your choice is: "<<endl;
          cin>>a2;
     }
-     if (a2=2) {result=result+1 ;}
+     if (a2==2) {result=result+1 ;}
  else  {result=result;}
 
     cout<<"Which Salvatore brother met Elena first?"<<endl;
@@ -38,7 +38,7 @@ int main ()
         cout<<"This number does not match an answer, try again. Your choice is: "<<endl;
          cin>>a3;
     }
-     if (a3=2) {result=result+1;}
+     if (a3==2) {result=result+1;}
  else  {result=result;}
 
      cout<<"What is Kai?"<<endl;
@@ -50,7 +50,7 @@ int main ()
         cout<<"This number does not match an answer, try again. Your choice is: "<<endl;
          cin>>a4;
     }
-     if (a4=1) {result=result+1 ;}
+     if (a4==1) {result=result+1 ;}
 else  {result=result;}
      cout<<"Who was Elena's first boyfriend?"<<endl;
     cout<<"(1) Matt (2) Stefan \n"<<endl;
@@ -61,7 +61,7 @@ else  {result=result;}
         cout<<"This number does not match an answer, try again. Your choice is: "<<endl;
          cin>>a5;
     }
-     if (a5=2) {result=result+1 ;}
+     if (a5==2) {result=result+1 ;}
  else {result=result;}
 
      cout<<"Who killed Tyler Lockwood's mother?"<<endl;
@@ -73,7 +73,7 @@ else  {result=result;}
         cout<<"This number does not match an answer, try again. Your choice is: "<<endl;
          cin>>a6;
     }
-     if (a6=2) {result=result+1 ;}
+     if (a6==2) {result=result+1 ;}
 else {result=result;}
 
     cout<<"What is the name of the first female doppelganger ?"<<endl;
@@ -85,7 +85,7 @@ else {result=result;}
         cout<<"This number does not match an answer, try again. Your choice is: "<<endl;
          cin>>a7;
     }
-     if (a7=1) {result=result+1 ;}
+     if (a7==1) {result=result+1 ;}
  else {result=result;}
 
     cout<<"What is the name of Katherine's daughter?"<<endl;
@@ -97,7 +97,7 @@ else {result=result;}
         cout<<"This number does not match an answer, try again. Your choice is: "<<endl;
          cin>>a8;
     }
-     if (a8=1) {result=result+1 ;}
+     if (a8==1) {result=result+1 ;}
 else {result=result;}
       cout<<"What is the name of the bridge where the Gilbert family died?"<<endl;
     cout<<"(1) Wickery Bridge (2) Wilckery Bridge\n"<<endl;
@@ -108,7 +108,7 @@ else {result=result;}
         cout<<"This number does not match an answer, try again. Your choice is: "<<endl;
          cin>>a9;
     }
-     if (a9=1) {result=result+1 ;}
+     if (a9==1) {result=result+1 ;}
  else {result=result;}
 
     cout<<"What was Elena's dream job"<<endl;
@@ -120,7 +120,7 @@ else {result=result;}
         cout<<"This number does not match an answer, try again. Your choice is: "<<endl;
          cin>>a10;
     }
-     if (a10=2) {result=result+1;}
+     if (a10==2) {result=result+1;}
  else {result=result;}
 
      cout<<"Your result is "<<result<<" and you are a "<<result<<"0% TVD fan"<<endl;
